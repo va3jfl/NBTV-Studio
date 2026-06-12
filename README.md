@@ -4,7 +4,8 @@
 
 
 [NBTV Studio main window](screenshot.jpg)
-[Image Quality](qualitiy.png)
+
+[Image Quality](quality.png)
 
 
 ---
