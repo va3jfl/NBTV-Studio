@@ -100,8 +100,8 @@ Pick **Source → File over NBTV (QR)** and load any file. The sender splits it 
 
 A 48-line mode carries exactly 48 picture rows — that's the medium. QR frames look razor sharp because they're generated natively on the scan grid; photos and video must be resampled down to it. NBTV Studio gets the most out of those lines:
 
-<p align="center">
-  <img src="quality.png" width="550"><br>
+<p align="right">
+  <img src="quality.png" width="450"><br>
   <em>Top row: the old pipeline. Bottom row: linear-light resampling with Detail boost — hard pixels on the left, Smooth reconstruction on the right.</em>
 </p>
 
