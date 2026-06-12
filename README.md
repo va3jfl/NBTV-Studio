@@ -10,7 +10,7 @@
 
 <img src="screenshot.jpg" width="850">
 
-*Live TX and RX side by side — Club 48-line, Stereo Y/C colour, over soft loopback.*
+*Live TX and RX side by side —  over soft loopback.*
 
 </div>
 
