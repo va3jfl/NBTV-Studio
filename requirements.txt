@@ -1,0 +1,17 @@
+# NBTV Studio — Python dependencies
+# Install everything:   pip install -r requirements.txt
+# Note: Tkinter ships with Python itself (Debian/Ubuntu: sudo apt install python3-tk)
+
+# --- Required (codec + GUI) ---
+numpy>=1.22
+Pillow>=9.0
+
+# --- Live audio in/out (soft loopback and WAV render/decode work without it) ---
+sounddevice>=0.4.6
+
+# --- Video files, webcam, and File-over-NBTV QR transfer ---
+# 4.8+ recommended: includes the more reliable Aruco-based QR detector
+opencv-python>=4.8
+
+# --- Faster screen capture (optional; falls back to Pillow's ImageGrab) ---
+mss>=9.0
