@@ -1,12 +1,20 @@
-# NBTV Studio By VA3JFL
+<div align="center">
 
-**Narrow-band television over a sound card.** Transmit and receive mechanical-television-style video through audio — over a real cable, a WAV file, or a pure software loopback. Classic 32-line club NBTV, Baird 30-line, and experimental wideband modes up to 480 lines that turn a 24-bit/192 kHz sound card into a surprisingly capable video link. It can even send *files* over the video channel as a stream of QR frames.
+# NBTV Studio
 
+### Narrow-band television over a sound card — by VA3JFL
 
-![NBTV Studio main window](screenshot.jpg)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](#requirements)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20·%20Linux%20·%20macOS-lightgrey)](#requirements)
 
-![Image quality](quality.png)
+<img src="screenshot.jpg" width="850">
 
+*Live TX and RX side by side — Club 48-line, Stereo Y/C colour, over soft loopback.*
+
+</div>
+
+Transmit and receive mechanical-television-style video through audio — over a real cable, a WAV file, or a pure software loopback. Classic 32-line club NBTV, Baird 30-line, and experimental wideband modes up to 480 lines that turn a 24-bit/192 kHz sound card into a surprisingly capable video link. It can even send *files* over the video channel as a stream of QR frames.
 
 ---
 
@@ -92,6 +100,11 @@ Pick **Source → File over NBTV (QR)** and load any file. The sender splits it 
 
 A 48-line mode carries exactly 48 picture rows — that's the medium. QR frames look razor sharp because they're generated natively on the scan grid; photos and video must be resampled down to it. NBTV Studio gets the most out of those lines:
 
+<p align="center">
+  <img src="quality.png" width="750"><br>
+  <em>Top row: the old pipeline. Bottom row: linear-light resampling with Detail boost — hard pixels on the left, Smooth reconstruction on the right.</em>
+</p>
+
 - Downscaling runs in **linear light** with a two-stage Lanczos filter, so fine detail averages to the correct brightness instead of going muddy.
 - **Detail boost** (TRANSMIT panel) applies mild aperture correction after the downscale — the same trick classic TV cameras used. On by default; toggles live; never touches exact-grid data frames.
 - **Smooth** (RECEIVE panel) switches both monitors from honest hard pixels to a proper Lanczos reconstruction — much closer to what a real monitor's spot and phosphor show. *Save frame…* honours it too.
@@ -123,3 +136,9 @@ Interfacing with other NBTV hardware or software will likely mean trimming sync 
 ## License
 
 Released under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+<sub>73 de VA3JFL</sub>
+</div>
