@@ -3,9 +3,9 @@
 **Narrow-band television over a sound card.** Transmit and receive mechanical-television-style video through audio — over a real cable, a WAV file, or a pure software loopback. Classic 32-line club NBTV, Baird 30-line, and experimental wideband modes up to 480 lines that turn a 24-bit/192 kHz sound card into a surprisingly capable video link. It can even send *files* over the video channel as a stream of QR frames.
 
 
-[NBTV Studio main window](screenshot.jpg)
+![NBTV Studio main window](screenshot.jpg)
 
-[Image Quality](quality.png)
+![Image quality](quality.png)
 
 
 ---
