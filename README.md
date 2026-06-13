@@ -1,18 +1,29 @@
-<div align="center">
+content = """<h1 align="center">VREC Studio By Joel Lagace — Virtual Vinyl Records</h1>
 
-# NBTV Studio
+<p align="center">
+  <a href="#requirements"><img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python 3.8+"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"></a>
+  <a href="#requirements"><img src="https://img.shields.io/badge/platform-Windows%20·%20Linux%20·%20macOS-lightgrey" alt="Platform"></a>
+</p>
 
-### Narrow-band television over a sound card — by VA3JFL
+Press a WAV file onto a PNG that *looks* like a vinyl record and *is* the
+audio. The fine groove texture in the image is the actual sample data: every
+audio sample owns exactly one pixel along an Archimedean spiral, with its
+brightness encoding the μ-law amplitude. Send someone the PNG and they can
+play it — or scratch it — on the virtual turntable.
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](#requirements)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20·%20Linux%20·%20macOS-lightgrey)](#requirements)
+### 📸 Screenshots
+*Click images to expand*
 
-<img src="screenshot.jpg" width="850">
-
-*Live TX and RX side by side —  over soft loopback.*
-
-</div>
+<p align="left">
+  <a href="screenshot1.jpg" target="_blank">
+    <img src="screenshot1.jpg" width="40%" alt="VREC-studio Player">
+  </a>
+  &nbsp;&nbsp;
+  <a href="screenshot2.jpg" target="_blank">
+    <img src="screenshot2.jpg" width="55%" alt="PNG Pressed Vinyl">
+  </a>
+</p>
 
 Transmit and receive mechanical-television-style video through audio — over a real cable, a WAV file, or a pure software loopback. Classic 32-line club NBTV, Baird 30-line, and experimental wideband modes up to 480 lines that turn a 24-bit/192 kHz sound card into a surprisingly capable video link. It can even send *files* over the video channel as a stream of QR frames.
 
